@@ -1,0 +1,24 @@
+{
+  "name": "next-esbuild-loader",
+  "version": "0.0.1-beta.0",
+  "description": "Next.js with esbuild",
+  "main": "index.js",
+  "repository": "https://github.com/snowfirewolf/next-esbuild-loader",
+  "authors": "SnowFireWolf",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "nextjs",
+    "esbuild",
+    "web"
+  ],
+  "dependencies": {
+    "esbuild-loader": "^2.18.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0"
+  },
+  "peerDependencies": {
+    "next": ">=9.0.0"
+  }
+}
